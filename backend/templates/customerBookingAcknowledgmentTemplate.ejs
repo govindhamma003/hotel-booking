@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Acknowledgment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      background: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .header {
+      background-color: #3063ea;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .content {
+      padding: 20px;
+    }
+    .details {
+      margin: 15px 0;
+      font-size: 16px;
+    }
+    .details p {
+      margin: 5px 0;
+    }
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      padding: 15px;
+      border-top: 1px solid #ddd;
+      background: #f8f8f8;
+    }
+    .footer a {
+      color: #3063ea;
+      text-decoration: none;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #3063ea;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Booking Confirmation</div>
+    <div class="content">
+      <p>Dear <strong><%= name %></strong>,</p>
+      <p>
+        Thank you for choosing <strong>“La Villa Le Bonheur”</strong> for your stay! We’re excited to host you and ensure you have a memorable experience. Here are the details of your booking:
+      </p>
+      <div class="details">
+        <p><strong>Booking Reference:</strong> <%= bookingReference %></p>
+        <p><strong>Room Type:</strong> <%= roomType %></p>
+        <p><strong>Check-in Date:</strong> <%= checkInDate %></p>
+        <p><strong>Check-out Date:</strong> <%= checkOutDate %></p>
+        <p><strong>Number of Guests:</strong> <%= guests %></p>
+        <p><strong>Price:</strong> ₹<%= price %> per night</p>
+      </div>
+      <p>
+        If you have any special requests or need further assistance, please don’t hesitate to contact us at <a href="mailto:contact@rkmtech.com">contact@rkmtech.com</a> or call us at <strong>+91 99444 99493</strong>.
+      </p>
+      <p>We look forward to welcoming you!</p>
+      <p>Warm regards,</p>
+      <p><strong>The Bonheur Team</strong></p>
+    </div>
+    <div class="footer">
+      Need support? <a href="mailto:support@bonheur.com">Contact Us</a> | © 2024 Bonheur.
+    </div>
+  </div>
+</body>
+</html>

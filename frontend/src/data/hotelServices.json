@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "Wifi",
+    "title": "Hi-Speed WiFi",
+    "description": "Stay connected with our complimentary high-speed internet available throughout the property."
+  },
+  {
+    "id": 2,
+    "icon": "SportsHandball",
+    "title": "Spacious Accomodations",
+    "description": "Experience the perfect blend of comfort and luxury with our spacious accommodations."
+  },
+  {
+    "id": 3,
+    "icon": "RestaurantMenu",
+    "title": "Food Arrangement",
+    "description": "Delightful food arrangements that blend taste and cuisines"
+  },
+  {
+    "id": 4,
+    "icon": "AirlineSeatIndividualSuite",
+    "title": "Family Friendly Facilities",
+    "description": "Relax in spacious and comfortable bedrooms designed to make you feel at home."
+  },
+  {
+    "id": 5,
+    "icon": "Spa",
+    "title": "Spa",
+    "description": "Rejuvenate your mind and body with our luxurious spa treatments and therapies."
+  },
+  {
+    "id": 6,
+    "icon": "BeachAccess",
+    "title": "Relaxation",
+    "description": "Unwind and soak in the serene beach vibes with breathtaking views and peaceful surroundings."
+  }
+]
