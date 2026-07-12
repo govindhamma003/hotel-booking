@@ -59,7 +59,7 @@
   {
     "id": 4,
     "images": [
-      "/assets/img/room4.jpg",
+      "/assets/img/room5.jpg",
       "/assets/img/room2.jpg"
     ],
     "pricePerNight": "8000",
@@ -78,19 +78,19 @@
   {
     "id": 5,
     "images": [
-      "/assets/img/room5.jpg",
+      "/assets/img/room4.jpg",
       "/assets/img/room2.jpg"
     ],
-    "pricePerNight": "1500",
-    "roomType": "Standard Room",
+    "pricePerNight": "5500",
+    "roomType": "Quad Room",
     "bedrooms": 1,
     "bathrooms": 1,
     "shortDescription": "A comfortable room for a relaxing stay.",
-    "longDescription": "The Standard Room offers a cozy environment with all essential amenities for a pleasant stay.",
+    "longDescription": "The Quad Room offers a cozy environment with all essential amenities for a pleasant stay.",
     "additionalDetails": ["Free WiFi", "Air Conditioning", "Daily Housekeeping"],
-    "services": ["King Size Bed", "20 SQ MT", "2 Persons", "Free Breakfast", "Smart TV"],
+    "services": ["King Size Bed", "20 SQ MT", "4 Persons", "Free Breakfast", "Smart TV"],
     "petsAllowed": false,
-    "capacity": "2",
+    "capacity": "4",
     "size": "20 SQ MT",
     "status": true
   },
@@ -100,12 +100,12 @@
       "/assets/img/room6.jpg",
       "/assets/img/room1.jpg"
     ],
-    "pricePerNight": "2500",
-    "roomType": "Deluxe Room",
-    "bedrooms": 1,
-    "bathrooms": 1,
+    "pricePerNight": "8000",
+    "roomType": "Executive Room",
+    "bedrooms": 2,
+    "bathrooms": 2,
     "shortDescription": "A spacious room with premium amenities.",
-    "longDescription": "The Deluxe Room features premium bedding, a stunning view, and top-class room service.",
+    "longDescription": "The Executive Room features premium bedding, a stunning view, and top-class room service.",
     "additionalDetails": ["Sea View", "Premium Bedding", "Room Service"],
     "services": ["King Size Bed", "35 SQ MT", "2 Persons", "Ocean View", "Free Mini Bar", "Netflix and Streaming Services"],
     "petsAllowed": false,
