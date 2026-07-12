@@ -1,16 +1,44 @@
-# React + Vite
+#  Hotel Royal Stay — Online Room Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-stack hotel room booking web application built with MERN stack.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend**: React.js (Vite), Material UI
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB, Mongoose
+- **Email**: Nodemailer, EJS Templates
+- **Logging**: Winston Logger
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Browse available hotel rooms with images and pricing
+- 3-step booking form with validation
+- Email confirmation to guest and admin on booking
+- Single page application with smooth scroll navigation
+- Responsive design
 
-## React Compiler
+## ⚙️ Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Backend**
+```bash
+cd backend
+npm install
+npx nodemon server.js
+```
 
-## Expanding the Oxlint configuration
+**Frontend**
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📌 API Endpoints
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/availableRooms` | Get all rooms |
+| POST | `/api/customer/booking` | Create booking |
+| GET | `/api/bookings` | Get all bookings |
+
+##  Developer
+**Govindhamma** — Full Stack Developer  
+📧 govindhamma22@gmail.com
